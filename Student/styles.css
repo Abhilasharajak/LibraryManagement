@@ -1,0 +1,220 @@
+body {
+  background-color: lightblue;
+  opacity: 100%;
+  margin: 2px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-info,
+.nav-links button {
+  text-align: center;
+}
+
+.nav-links button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #00b4d8;
+}
+
+.search-section {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/* Book Listing Section Styles */
+.book-listing-section {
+  padding: 30px;
+   margin: 20% 20%;
+}
+
+.book-table {
+  width: 100%;
+  max-width:80%;
+  table-layout: fixed;
+  color: #333;
+}
+
+.book-table th,
+.book-table td {
+  border: 1px solid #ffc;
+  padding: 10px;
+  text-align: center;
+}
+
+.book-table th {
+  background-color: #f0f0f0;
+}
+
+/* Testimonial Section Styles */
+.testimonial-section,
+.social-proof {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonial,
+.blog-post {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+/* Partner Logos Styles */
+.partner-logos,
+.partner-logos1 {
+  display: inline;
+  border-radius: 50%;
+
+}
+@media (max-width: 768px) {
+  .partner-logos1 {
+      width: 80px; /* Adjust the width for smaller screens */
+      height: 80px; /* Adjust the height for smaller screens */
+  }
+}
+
+.partner-logos1 {
+  justify-content: space-between;
+}
+
+.partner-logos img,
+.partner-logos1 img {
+  width: 100px;
+  margin: 10px;
+}
+
+/* Latest Updates Styles */
+.latest-updates {
+  text-align: center;
+}
+
+.read-more {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+/* Footer Styles */
+.contact-info,
+.social-media,
+.useful-resources {
+  margin: 5px;
+}
+
+.dropbtn {
+  background-color: blue;
+  color: white;
+  padding: 8px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Font Awesome Styles */
+.fa {
+  padding: 5px;
+  font-size: 14px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 1px 0.5px;
+}
+
+.fa:hover {
+  background-color: #1200b5;
+  transform: rotate(90deg);
+  opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+tr:hover {
+  background-color: #fefae0;
+}
+
+table {
+  background-color: #90e0ef;
+  table-layout: fixed;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Media Query for Mobile */
+@media only screen and (max-width: 600px) {
+  .nav-container {
+    flex-direction: column;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .book-table {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .partner-logos1 {
+    flex-direction: column;
+  }
+}
